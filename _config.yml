@@ -59,11 +59,21 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: liao1995
+#disqus_username: liao1995
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 090862d6f5605067bb06     #生成的clientID
+  clientSecret: 52644b1b8376d80df583e5914e5b1a4602469b4c  #生成的clientSecret
+  repo: liao1995.github.io    #仓库名称
+  owner: liao1995    #github用户名
+  admin: liao1995
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
 
 # Netease settings
 netease_comment: false
-
 
 
 # Analytics settings
@@ -72,7 +82,7 @@ ba_track_id: 'e2497c35d5e6cadc8cb4fd6cf7b1bcbf'
 
 # Google Analytics
 ga_track_id: 'UA-133286107-1'            # Format: UA-xxxxxx-xx
-ga_domain: liao1995.github.io/Blog/
+ga_domain: auto 
 
 
 
